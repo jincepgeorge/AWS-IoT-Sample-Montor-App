@@ -428,7 +428,7 @@ angular.module("app", ["chart.js", "AWSDynamoService"]).controller("LineCtrl", f
     //$scope.makeCorsRequest("GET", "http://api.carriots.com/devices/defaultDevice@jincepgeorge.jincepgeorge/streams/?sort=at&order=-1");
     //$scope.loadGraph();
 
-    var offline = 0;
+    var offline = 1;
 
 
     $scope.loadData = function() {
